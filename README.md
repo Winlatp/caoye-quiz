@@ -8,6 +8,16 @@
 - 大赛标准卷 100 题（每科 20 单选 + 5 多选）
 - 完全离线、零权限、学习记录只存本机
 
+## 在线下载页
+
+**<https://winlatp.github.io/caoye-quiz/>**
+
+![扫码直接下载 APK](assets/qr-apk.png)
+
+- 扫码直接下载 APK：<https://winlatp.github.io/caoye-quiz/downloads/caoye-quiz-v2.1.0.apk>
+- 下载页：<https://winlatp.github.io/caoye-quiz/>
+- 微信扫码若被拦截，请用系统浏览器打开。
+
 ## 下载
 
 | 文件 | 说明 | 大小 |
