@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2f7d4f">
+<title>草学刷题 v2.1.0 · 下载</title>
+<link rel="icon" href="assets/icon-512.png">
+<style>
+:root{--bg:#f3f6f3;--card:#fff;--ink:#1d2a22;--sub:#6b7a70;--line:#e2e9e3;--pri:#2f7d4f;--pri-dark:#256b41;--soft:#e8f3ec;--amber:#a66a12}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6}
+.wrap{max-width:680px;margin:0 auto;padding:20px 16px 40px}
+header{display:flex;align-items:center;gap:14px;margin:4px 0 18px}
+header img{width:58px;height:58px;border-radius:15px;box-shadow:0 4px 14px rgba(47,125,79,.18)}
+header h1{margin:0;font-size:23px;letter-spacing:.5px}
+header p{margin:2px 0 0;font-size:12px;color:var(--sub)}
+.hero{background:linear-gradient(135deg,#2f7d4f,#245f3d);color:#fff;border-radius:18px;padding:22px 18px 18px}
+.hero h2{margin:0 0 6px;font-size:20px}
+.hero p{margin:0;font-size:13px;opacity:.9}
+.stats{display:flex;margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.22)}
+.stats div{flex:1}
+.stats b{display:block;font-size:20px}
+.stats span{font-size:11px;opacity:.85}
+.actions{margin-top:16px;display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;align-items:center;justify-content:center;min-height:52px;border-radius:13px;text-decoration:none;font-weight:600;font-size:16px;padding:0 16px;border:1px solid transparent}
+.btn.primary{background:var(--pri);color:#fff;box-shadow:0 6px 18px rgba(47,125,79,.22)}
+.btn.primary:active{background:var(--pri-dark)}
+.btn.ghost{background:#fff;color:var(--ink);border-color:var(--line)}
+.btn small{font-weight:400;font-size:12px;opacity:.8;margin-left:8px}
+.hint{text-align:center;font-size:12px;color:var(--sub);margin:10px 0 0}
+.hero .btn.primary{background:#fff;color:#256b41;box-shadow:0 8px 20px rgba(0,0,0,.18)}
+.hero .btn.primary:active{background:#eef7f1}
+.hero .btn.primary small{color:#256b41;opacity:.72}
+.hero .btn.ghost{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.28)}
+.hero .hint{color:rgba(255,255,255,.82)}
+.sec{display:flex;align-items:baseline;justify-content:space-between;margin:26px 2px 10px}
+.sec h3{margin:0;font-size:15px}
+.sec span{font-size:12px;color:var(--sub)}
+.cards{display:flex;flex-direction:column;gap:10px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.card:active{background:#fafcfa}
+.card .ico{width:42px;height:42px;border-radius:12px;background:var(--soft);display:flex;align-items:center;justify-content:center;font-size:19px;flex:none}
+.card .grow{flex:1;min-width:0}
+.card b{display:block;font-size:15px}
+.card span{display:block;font-size:12px;color:var(--sub);margin-top:2px}
+.card .go{color:#b6c2b9;font-size:20px}
+.note{background:#fff;border:1px dashed #d8e3da;border-radius:12px;padding:13px 15px;font-size:12.5px;color:var(--sub);line-height:1.8;margin-top:18px}
+.note b{color:var(--ink)}
+.steps{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-top:10px}
+.steps ol{margin:0;padding-left:20px;font-size:13.5px;color:#33443a;line-height:1.9}
+.steps li{margin:2px 0}
+footer{text-align:center;font-size:11.5px;color:var(--sub);margin-top:32px;line-height:1.8}
+footer a{color:var(--sub)}
+@media (prefers-color-scheme: dark){
+  body{background:#121814;color:#e6efe9}
+  :root{--card:#1b241e;--line:#2a362e;--sub:#9aab9f}
+  .btn.ghost,.card,.steps,.note{background:#1b241e;color:#e6efe9}
+  .card span,.note,.steps ol{color:#9aab9f}
+  header img{box-shadow:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="assets/icon-512.png" alt="草学刷题图标">
+    <div>
+      <h1>草学刷题 v2.1.0</h1>
+      <p>第四届全国大学生草学类本科专业技能大赛 · 项目1</p>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>草学综合知识题库</h2>
+    <p>植物学 · 植物分类学 · 土壤学 · 普通生态学</p>
+    <div class="stats">
+      <div><b>1200</b><span>题目</span></div>
+      <div><b>4 门</b><span>课程</span></div>
+      <div><b>3 阶段</b><span>基础/提高/进阶</span></div>
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="downloads/caoye-quiz-v2.1.0.apk" download>下载 Android APK <small>240.9 KB</small></a>
+      <a class="btn ghost" href="downloads/caoye-quiz-v2.1.0.zip" download>下载完整包 zip <small>461 KB</small></a>
+    </div>
+    <p class="hint">Android 7.0+ · 完全离线 · 不申请任何权限</p>
+  </section>
+
+  <div class="sec"><h3>其他下载</h3><span>v2.1.0</span></div>
+  <div class="cards">
+    <a class="card" href="downloads/caoye-quiz-web-v2.1.0.html" target="_blank" rel="noopener">
+      <span class="ico">网</span>
+      <span class="grow"><b>网页版（免安装）</b><span>电脑 / iPhone 浏览器直接打开 · 756 KB</span></span>
+      <span class="go">›</span>
+    </a>
+    <a class="card" href="downloads/caoye-quiz-guide-v2.1.0.md">
+      <span class="ico">说</span>
+      <span class="grow"><b>安装与使用说明</b><span>安装步骤、题库结构、重新打包 · Markdown</span></span>
+      <span class="go">›</span>
+    </a>
+    <a class="card" href="downloads/caoye-quiz-v2.0.0.apk" download>
+      <span class="ico">旧</span>
+      <span class="grow"><b>v2.0 稳定版 APK</b><span>修复每日一练 bug 之前的存档 · 240.9 KB</span></span>
+      <span class="go">›</span>
+    </a>
+  </div>
+
+  <div class="sec"><h3>安装</h3><span>Android</span></div>
+  <div class="steps">
+    <ol>
+      <li>下载 APK 或完整包 zip。</li>
+      <li>在手机文件管理器中找到安装包；若是 zip，先解压。</li>
+      <li>点击 APK，按提示允许「未知来源」安装。</li>
+      <li>桌面出现绿色「草」字图标「草学刷题」，打开即用。</li>
+    </ol>
+  </div>
+
+  <div class="note">
+    <b>说明：</b>App 不联网、不读取通讯录、不申请存储权限，学习记录只保存在本机。APK 使用调试证书签名，安装时若提示「未经安全检测 / 风险应用」，选择继续安装即可。
+    <br><br>
+    <b>备用下载：</b>百度网盘 `https://pan.baidu.com/s/1fVLaCS7PnScdFhXDuGVHOw`，提取码 <b>b43r</b>。若 GitHub 访问较慢，可用网盘。
+  </div>
+
+  <footer>
+    草学刷题 v2.1.0 · 题库为模拟练习题，非大赛真题<br>
+    <a href="downloads/SHA256SUMS.txt">SHA-256 校验值</a>
+  </footer>
+</div>
+</body>
+</html>
